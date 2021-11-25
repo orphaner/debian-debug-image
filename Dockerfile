@@ -1,3 +1,3 @@
-FROM debian:10
+FROM debian:11
 
-RUN apt update && apt install -y curl dnsutils wget nmap ssh dnsutils jq
+RUN apt update && apt install -y curl dnsutils wget nmap ssh dnsutils jq telnet
